@@ -10,7 +10,7 @@ Silicon Valley, CA
 
 ## About
 
-I build and research AI agent infrastructure, the systems that let agents remember, coordinate, and get real work done. My work spans shipped products (a live MCP server used by AI agents), original machine learning research (a clinical-grade model for predicting brain aneurysm rupture), and competitive building across hackathons and science fairs. I'm 16 and most of my output shows up as deployed products, research, and competition results rather than a long resume, so the projects below are the clearest signal of how I work.
+I build and research AI agent infrastructure, the systems that let agents remember, coordinate, and get real work done. My work spans shipped products (a live MCP server used by AI agents), original machine learning research (a clinical-grade model for predicting brain aneurysm rupture), and competitive building across hackathons and science fairs. I'm 15 and most of my output shows up as deployed products, research, and competition results rather than a long resume, so the projects below are the clearest signal of how I work.
 
 Core interests: agent infrastructure, memory and coordination systems for multi-agent setups, applied ML, and turning research into things people can actually use.
 
