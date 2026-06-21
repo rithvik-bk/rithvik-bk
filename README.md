@@ -31,11 +31,6 @@ Core interests: agent infrastructure, memory and coordination systems for multi-
 - This workflow is how projects like Mycelium and Donna actually got built, going from a blank repo to a live, deployed app.
 - Comfortable owning the whole stack solo: designing the UI, wiring the backend, integrating LLM and MCP layers, and shipping.
 
-**DECA Mentor**
-*BISV DECA Chapter*
-- Mentor newer members on roleplay strategy, performance indicators, and competition preparation.
-- Draw on my own ICDC experience to coach peers through regional and state events.
-
 ---
 
 ## Projects
@@ -67,7 +62,7 @@ Core interests: agent infrastructure, memory and coordination systems for multi-
 - **DECA International Career Development Conference (ICDC) Finalist**, Principles of Entrepreneurship, April 2026
 - **DECA State Qualifier / Competitor**, March 2026
 - **1st Place, Silicon Valley**, VEX Robotics, March 2025 (advanced to the State Championship at UC Berkeley)
-- **TEDx Speaker**, TEDxBISV Youth, May 2025
+- **TEDx Speaker**, TEDx Youth, May 2025
 
 ---
 
