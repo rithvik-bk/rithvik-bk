@@ -12,7 +12,7 @@
 
   ---
   
-  Models keep getting smarter. The bottleneck isn't intelligence anymore — it's everything *underneath*: memory that survives past a single session, skills agents can share instead of relearning, and trust so they coordinate without a human in
+  Models keep getting smarter. The bottleneck isn't intelligence anymore, but it's everything *underneath*: memory that survives past a single session, skills agents can share instead of relearning, and trust so they coordinate without a human in
   the loop.
 
   **That layer is what I build.**
