@@ -1,4 +1,4 @@
-<h2 align="center">I build the infrastructure that gives AI agents memory and lets them work together.</h2>
+<h2 align="center">I build the infrastructure behind AI agents: trust, memory, efficiency, evaluation, orchestration. </h2>
 
   <p align="center">
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
