@@ -17,43 +17,37 @@
 ## Projects with VoiceOS
 
 ### [VoiceOS Native OAuth Engine](https://github.com/rithvik-bk/voiceos-oauth-engine) · `auth infra`
-- Build custom VoiceOS integrations with real OAuth. No Composio, no third parties.
-- Say "Connect [App]" and the provider's own approval page opens.
-- The token is minted straight into the macOS Keychain.
-- One config file per provider, zero auth code needed. Tested with 625 tests.
-- [Read the docs.](https://github.com/rithvik-bk/voiceos-oauth-engine/blob/main/docs/GETTING-STARTED.md)
+- Build custom VoiceOS integrations with real OAuth, no Composio and no third parties: say "Connect [App]" and the provider's own approval page opens, with the token minted straight into the macOS Keychain
+- One config file per provider and zero auth code needed, held to 625 tests
+- [Read the docs](https://github.com/rithvik-bk/voiceos-oauth-engine/blob/main/AGENTS.md), written so an AI agent can install and wire it for you end to end
 
 ### [VoiceOS Pre-Verification](https://github.com/rithvik-bk/voiceos-preverification) · `ai trust infra`
-- A deterministic gate for VoiceOS that runs before an agent fires any irreversible action.
-- Provenance tracing: every routing parameter (recipient, amount, destination) must trace back to a span of what the user actually said. Content an agent reads can never become a destination, which structurally blocks prompt injection and hallucinated targets.
-- Pure string and number matching over plain data: same input, same verdict, in microseconds, no added latency in the agent loop.
-- Wraps any MCP tool server in shadow mode first: it logs what it would have caught, then you flip it to enforce.
-- [Read the docs.](https://github.com/rithvik-bk/voiceos-preverification/blob/main/AGENTS.md) Written so an AI agent can install and wire it for you end to end.
+- A deterministic gate for VoiceOS that runs before an agent fires any irreversible action: every routing parameter (recipient, amount, destination) must trace back to a span of what the user actually said, so content an agent reads can never become a destination and prompt injection is blocked structurally
+- Pure string and number matching over plain data returns the same verdict for the same input in microseconds, and it wraps any MCP tool server in shadow mode first, logging what it would have caught until you flip it to enforce
+- [Read the docs](https://github.com/rithvik-bk/voiceos-preverification/blob/main/AGENTS.md), written so an AI agent can install and wire it for you end to end
 
 ### [Slack x VoiceOS Integration](https://github.com/rithvik-bk/voiceos-slack-integration) · `voice productivity`
-- Use Slack by voice through VoiceOS.
-- Catch-up digests, read any channel or DM, search, send, schedule, reply in thread, set status. 16 tools.
-- One-tap OAuth on Slack's own approval page. Zero lines of auth code.
+- Use Slack by voice through VoiceOS: catch-up digests, read any channel or DM, search, send, schedule, reply in thread, set status
+- 16 tools behind one-tap OAuth on Slack's own approval page, with zero lines of auth code
+- Built on the VoiceOS Native OAuth Engine, so the whole integration ships without a single pasted API key
 
 ## ML/AI Research
 
-### [Aneurysm ML Pipeline](https://github.com/rithvik-bk/aneurysm-ml-pipeline) · `research`
-- Automated end-to-end pipeline for zero-cost detection of aneurysm rupture risk: **AUC 0.834, 80% sensitivity**, with per-patient explanations.
-- Drives CFD through the SimScale API, feeds structural FEA, and trains an interpretable Random Forest with a SHAP explanation engine. Zero specialist personnel in the loop.
-- Replaces commercial workflows that cost $20k to $40k a year and take hours per case. This one is free and takes about 24 minutes per aneurysm.
-- 🥇 **1st Award, Biological Science and Engineering @ Synopsys Silicon Valley**
+### [Zero-Cost Machine Learning for Cerebral Aneurysm Rupture Prediction](https://github.com/rithvik-bk/aneurysm-ml-pipeline) · `research`
+- Automated end-to-end pipeline for zero-cost detection of aneurysm rupture risk at **AUC 0.834 and 80% sensitivity**, with a per-patient explanation behind every decision
+- Drives CFD through the SimScale API, feeds structural FEA, and trains an interpretable Random Forest with a SHAP explanation engine, replacing commercial workflows that cost $20k to $40k a year and take hours per case with a free pipeline that takes about 24 minutes per aneurysm
+- 🥇 **1st Award, Biomedical Engineering @ Synopsys Silicon Valley**
 - 🏅 **5th in California, Medicine & Physiology @ CSEF 2026**
-- 📄 [Read the research paper.](https://github.com/rithvik-bk/aneurysm-ml-pipeline/blob/main/PAPER.md)
+- 📄 [Read the research paper](https://github.com/rithvik-bk/aneurysm-ml-pipeline/blob/main/PAPER.md)
 
 ## Personal Projects
 
 ### [Mycelium](https://github.com/arav-rithvik/mycelium) · `dev tool`
-- Collective intelligence for AI agents. Solve a task once, and it becomes a named, versioned, executable skill any agent can discover and reuse.
-- Every skill earns a live trust score from real pass or fail outcomes only, so good knowledge rises and broken knowledge fades, with no curator.
-- Savings are counted in real tokens that were never generated, then converted to energy, water, and CO2 through published, cited factors.
-- npm for agent knowledge. [Live demo.](https://mycelium-mcp.vercel.app/) Built with Arav Dharnikota.
+- Collective intelligence for AI agents: solve a task once and it becomes a named, versioned, executable skill any agent can discover and reuse
+- Every skill earns a live trust score from real pass or fail outcomes alone, and the savings are counted in real tokens that were never generated
+- npm for agent knowledge, built with Arav Dharnikota: [live demo](https://mycelium-mcp.vercel.app/)
 
-### [Whyboard](https://github.com/arav-rithvik/whyboard) · `ed tech`
-- Say "open a whiteboard and explain transformers": a glass lightboard opens beside your call.
-- A live AI tutor drives the board through tool calls while it speaks, so the drawing and the explanation are one continuous performance.
-- Built with Arav Dharnikota at the VoiceOS Hackathon, August 2026.
+### [Whyboard](https://github.com/arav-rithvik/whyboard) · `edtech`
+- Say "open a whiteboard and explain transformers" and a glass lightboard opens beside your call
+- A live AI tutor drives the board through tool calls while it speaks, so the drawing and the explanation are one continuous performance
+- Built with Arav Dharnikota at the VoiceOS Hackathon, August 2026
