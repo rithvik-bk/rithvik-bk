@@ -1,6 +1,8 @@
 <h1 align="center">Rithvik Burki</h1>
 <h3 align="center">I build the trust layer voice AI is missing: the machinery that decides whether an agent's action should fire, and the auth that lets it act at all.</h3>
 
+<p align="center">I love building end-to-end automation systems: pipelines where the entire job, from raw input to finished result, runs itself.</p>
+
 <p align="center">Silicon Valley, CA · <a href="mailto:rithvik1788@gmail.com">rithvik1788@gmail.com</a></p>
 
 <p align="center">
@@ -15,7 +17,7 @@
 
 ### Projects: VoiceOS (YC X25)
 
-Production infrastructure I built for VoiceOS, a YC-backed voice assistant platform.
+Production infrastructure built on VoiceOS, a YC-backed voice assistant platform, as independent developer projects.
 
 - **[VoiceOS Native OAuth Engine](https://github.com/rithvik-bk/voiceos-oauth-engine)**. A native OAuth engine for building custom VoiceOS integrations without relying on Composio or any third-party broker. Say "connect Slack" and the provider's own approval page opens; the token is minted straight into the macOS Keychain and never touches an external server. One config file per provider, zero auth code per integration, 625 tests. [Read the docs](https://github.com/rithvik-bk/voiceos-oauth-engine/blob/main/docs/GETTING-STARTED.md) to build on it.
 - **[VoiceOS Pre-verification](https://github.com/rithvik-bk/voiceos-preverification)**. A deterministic gate that runs before a voice agent fires any irreversible action. It checks that every routing parameter (the recipient, the amount, the destination) traces back to something the user actually said, and blocks the call if it cannot. No LLM in the hot path, so the same input always gives the same verdict in microseconds. Drop it in front of any MCP tool server in shadow mode and it starts catching wrong-target calls without changing your product.
@@ -23,7 +25,7 @@ Production infrastructure I built for VoiceOS, a YC-backed voice assistant platf
 
 ### Machine Learning
 
-- **[Aneurysm Rupture ML](https://github.com/rithvik-bk/aneurysm-rupture-ml)**. A computational framework for rapid, zero-cost analysis of hemodynamic and structural factors in cerebral aneurysms. The accurate clinical tools cost tens of thousands of dollars per seat and take hours per case; this pipeline automates mesh generation and CFD through the SimScale API, extracts hemodynamic features, and predicts rupture risk at AUC 0.834 with 80% sensitivity, free, in 24 minutes per aneurysm, on any computer, with per-patient explanations. **1st place, Biomedical Engineering, Silicon Valley (Synopsys) regional. 5th in California, Medicine and Physiology, California Science and Engineering Fair.** [Research paper](https://github.com/rithvik-bk/aneurysm-rupture-ml/blob/main/paper.pdf).
+- **[Aneurysm Rupture ML](https://github.com/rithvik-bk/aneurysm-rupture-ml)**. A computational framework for rapid, zero-cost analysis of hemodynamic and structural factors in cerebral aneurysms. The accurate clinical tools cost tens of thousands of dollars per seat and take hours per case; this pipeline is automated end to end: patient geometry is meshed, the full CFD run is driven programmatically through the SimScale API with auto-configured boundary conditions, hemodynamic features are extracted, and an interpretable ML model predicts rupture risk, with zero specialist personnel in the loop. AUC 0.834 with 80% sensitivity, free, about 24 minutes per aneurysm, on any computer, with per-patient explanations. **1st place, Biomedical Engineering, Silicon Valley (Synopsys) regional. 5th in California, Medicine and Physiology, California Science and Engineering Fair.** [Research paper](https://github.com/rithvik-bk/aneurysm-rupture-ml/blob/main/paper.pdf).
 
 ### Also built
 
