@@ -22,14 +22,13 @@
 - [Read the docs](https://github.com/rithvik-bk/voiceos-oauth-engine/blob/main/AGENTS.md), written so an AI agent can install and wire it for you end to end
 
 ### [VoiceOS Pre-Verification](https://github.com/rithvik-bk/voiceos-preverification) · `ai trust infra`
-- A deterministic gate for VoiceOS that runs before an agent fires any irreversible action: every routing parameter (recipient, amount, destination) must trace back to a span of what the user actually said, so content an agent reads can never become a destination and prompt injection is blocked structurally
-- Pure string and number matching over plain data returns the same verdict for the same input in microseconds, and it wraps any MCP tool server in shadow mode first, logging what it would have caught until you flip it to enforce
+- A deterministic gate for VoiceOS that runs before an agent fires any irreversible action: every routing parameter (recipient, amount, destination) must trace back to a span of what the user actually said, blocking prompt injection structurally
+- Pure string and number matching gives the same verdict for the same input in microseconds, wrapping any MCP tool server in shadow mode until you flip it to enforce
 - [Read the docs](https://github.com/rithvik-bk/voiceos-preverification/blob/main/AGENTS.md), written so an AI agent can install and wire it for you end to end
 
 ### [Slack x VoiceOS Integration](https://github.com/rithvik-bk/voiceos-slack-integration) · `voice productivity`
 - Use Slack by voice through VoiceOS: catch-up digests, read any channel or DM, search, send, schedule, reply in thread, set status
-- 16 tools behind one-tap OAuth on Slack's own approval page, with zero lines of auth code
-- Built on the VoiceOS Native OAuth Engine, so the whole integration ships without a single pasted API key
+- 16 tools behind one-tap OAuth on Slack's own approval page, built on the VoiceOS Native OAuth Engine with zero lines of auth code
 
 ## ML/AI Research
 
