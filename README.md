@@ -42,11 +42,11 @@
 ## Personal Projects
 
 ### [Mycelium](https://github.com/arav-rithvik/mycelium) · `dev tool`
-- Collective intelligence for AI agents: solve a task once and it becomes a named, versioned, executable skill any agent can discover and reuse
-- Every skill earns a live trust score from real pass or fail outcomes alone, and the savings are counted in real tokens that were never generated
+- Collective intelligence for AI agents: solve a task once, it becomes a skill any agent can reuse
+- Skills earn live trust scores from real pass or fail outcomes, savings counted in tokens never generated
 - npm for agent knowledge, built with Arav Dharnikota: [live demo](https://mycelium-mcp.vercel.app/)
 
 ### [Whyboard](https://github.com/arav-rithvik/whyboard) · `edtech`
 - Say "open a whiteboard and explain transformers" and a glass lightboard opens beside your call
-- A live AI tutor drives the board through tool calls while it speaks, so the drawing and the explanation are one continuous performance
+- A live AI tutor draws on it while it talks, one continuous performance driven by tool calls
 - Built with Arav Dharnikota at the VoiceOS Hackathon, August 2026
