@@ -27,8 +27,8 @@
 - [Read the docs](https://github.com/rithvik-bk/voiceos-preverification/blob/main/AGENTS.md), written so an AI agent can install and wire it for you end to end
 
 ### [Slack x VoiceOS Integration](https://github.com/rithvik-bk/voiceos-slack-integration) · `voice productivity`
-- Use Slack by voice through VoiceOS: catch-up digests, read any channel or DM, search, send, schedule, reply in thread, set status
-- 16 tools behind one-tap OAuth on Slack's own approval page, built on the VoiceOS Native OAuth Engine with zero lines of auth code
+- Use Slack by voice through VoiceOS: catch-up digests, read, search, send, schedule, threads, status
+- 16 tools, one-tap OAuth on Slack's own approval page, built on the Native OAuth Engine with zero auth code
 
 ## ML/AI Research
 
