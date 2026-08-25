@@ -1,7 +1,5 @@
 <h1 align="center">Rithvik Burki</h1>
-<h3 align="center">I build the trust layer voice AI is missing: the machinery that decides whether an agent's action should fire, and the auth that lets it act at all.</h3>
-
-<p align="center">I love building end-to-end automation systems: pipelines where the entire job runs itself.</p>
+<h3 align="center">Building agentic infra and auth for reliable, verifiable AI agents, plus end-to-end pipelines for AI native automation.</h3>
 
 <p align="center">Silicon Valley, CA · <a href="mailto:rithvik1788@gmail.com">rithvik1788@gmail.com</a></p>
 
