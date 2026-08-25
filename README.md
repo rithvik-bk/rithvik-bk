@@ -56,4 +56,4 @@
 ### [Whyboard](https://github.com/arav-rithvik/whyboard) · `ed tech`
 - Say "open a whiteboard and explain transformers": a glass lightboard opens beside your call.
 - A live AI tutor drives the board through tool calls while it speaks, so the drawing and the explanation are one continuous performance.
-- Built with Arav Dharnikota. Won at the VoiceOS Hackathon, August 2026.
+- Built with Arav Dharnikota at the VoiceOS Hackathon, August 2026.
