@@ -37,8 +37,8 @@
 - Predicts cerebral aneurysm rupture risk: **AUC 0.834, 80% sensitivity**, with per-patient explanations.
 - Automated end to end: patient geometry → CFD driven through the SimScale API → interpretable ML. Zero specialist personnel in the loop.
 - Replaces a commercial workflow that costs $20k to $40k a year and takes hours per case. This one is free and takes about 24 minutes per aneurysm.
-- 🥇 **1st place, Biomedical Engineering, Silicon Valley (Synopsys) regional**
-- 🏅 **5th in California, Medicine and Physiology, California Science and Engineering Fair**
+- 🥇 **1st Award, Biological Science and Engineering, Synopsys Silicon Valley Science and Technology Championship**
+- 🏅 **5th in California, Medicine & Physiology, California Science and Engineering Fair 2026**
 - 📄 [Read the research paper](https://github.com/rithvik-bk/aneurysm-rupture-ml/blob/main/paper.pdf)
 
 ## Personal Projects
